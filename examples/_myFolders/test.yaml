@@ -1,0 +1,42 @@
+openapi: 3.0.2
+
+info:
+  version: '1.0'
+  # REQUIRED
+  title: 'OpenAPI Course'
+  description: Specification for OpenAPI Course
+  # URL to ToS. String.
+  termsOfService: 'http://example.com/terms'
+  # Contact object
+  contact: 
+    name: Noel Schneider
+    url: https://otterbet.win
+    email: example@example.com
+  # License object
+  license:
+    name: ExampleLicense 2.0
+    url: https://www.example.org/license/LICENSE-2.0.html
+
+servers:
+  # Required
+  - url: https://dev.example.com
+    description: Development server
+  - url: https://dev.example2.com
+    description: Second dev server
+
+paths: 
+  /v1/customers:
+    get:
+      responses: 
+        '200':
+          description: List of Customers
+        '404':
+          description: No customers found
+
+components: 
+
+security: 
+
+tags: 
+
+externalDocs: 

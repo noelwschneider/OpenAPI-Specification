@@ -9,3 +9,22 @@ package-lock.json
 deploy/
 history
 Gemfile.lock
+
+# Template files & directories
+# Can be found in original directory
+.github
+guidelines
+proposals
+schemas
+scripts
+tests
+versions
+CODE_OF_CONDUCT.md 
+CONTRIBUTORS.md 
+DEVELOPMENT.md 
+GOVERNANCE.md 
+IMPLEMENTATIONS.md 
+LICENSE
+MAINTAINERS.md 
+SPECIAL_INTEREST_GROUPS.md 
+TOB.md 

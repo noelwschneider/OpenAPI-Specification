@@ -1,0 +1,25 @@
+{
+    "cells": [
+        {
+            "language": "markdown",
+            "source": [
+                "# Info object"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "markdown",
+            "source": [
+                "# Servers object\r\nList of server objects\r\nCan have multiple servers\r\n"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "markdown",
+            "source": [
+                "# Paths object\r\nRequired property (but can be empty with value {})\r\n\r\nPattern: /{path}\r\n    /pets\r\n    /pets/{petID}\r\n    /pets/mine\r\n\r\nPath item object\r\n\r\nPaths are appended to the end of the server endpoint\r\n    q: how is this handled with multiple servers & paths? Just 404, I suppose."
+            ],
+            "outputs": []
+        }
+    ]
+}
